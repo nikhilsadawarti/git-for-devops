@@ -71,5 +71,3 @@ ls
 cd git-for-devops/
 ls
 history
-
-This is some new changes
