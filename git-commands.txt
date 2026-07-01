@@ -50,8 +50,6 @@ git status
 git commmit -m "added files"
 git commit -m "added two files"
 git status
-history
-
 
 git remote add origin https://github.com/nikhilsadawarti/git-for-devops.git
 git remote -v
@@ -70,4 +68,13 @@ git clone https://github.com/nikhilsadawarti/git-for-devops.git
 ls
 cd git-for-devops/
 ls
-history
+
+git log --oneline
+git push origin dev
+git switch dev
+git switch master
+git pull origin master
+git status
+git branch
+git fetch
+git branch
