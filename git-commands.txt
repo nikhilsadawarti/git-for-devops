@@ -70,3 +70,5 @@
   574  cd git-for-devops/
   575  ls
   576  history
+
+This is some new changes
