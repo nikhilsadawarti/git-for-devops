@@ -50,3 +50,21 @@
   551  git commit -m "added two files"
   552  git status
   553  history
+   559  git remote add origin https://github.com/nikhilsadawarti/git-for-devops.git
+  560  git remote -v
+  561  git push origin master
+  562  git remote set-url origin https://<personal-access-tocken>@github.com/nikhilsadawarti/git-for-devops.git
+  563  git remote -v
+  564  git push origin master
+  565  mkdir git-clones
+  566  cd git-clones/
+  567  ls
+  568  git status
+  569  cd ..
+  570  git status
+  571  cd git-clones/
+  572  git clone https://github.com/nikhilsadawarti/git-for-devops.git
+  573  ls
+  574  cd git-for-devops/
+  575  ls
+  576  history
