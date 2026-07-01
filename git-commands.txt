@@ -1,4 +1,4 @@
- 502  git init
+  502  git init
   503  git status
   504  git status
   505  clear
@@ -50,7 +50,9 @@
   551  git commit -m "added two files"
   552  git status
   553  history
-   559  git remote add origin https://github.com/nikhilsadawarti/git-for-devops.git
+
+
+  559  git remote add origin https://github.com/nikhilsadawarti/git-for-devops.git
   560  git remote -v
   561  git push origin master
   562  git remote set-url origin https://<personal-access-tocken>@github.com/nikhilsadawarti/git-for-devops.git
