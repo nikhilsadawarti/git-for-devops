@@ -1,74 +1,75 @@
-  502  git init
-  503  git status
-  504  git status
-  505  clear
-  506  git status
-  507  ls -a
-  508  touch testing.py
-  509  git status
-  510  git add testing.py 
-  511  git status
-  512  git rm --cached testing.py 
-  513  git status
-  514  git add .
-  515  git status
-  516  git commit -m "added testing file"
-  517  git status
-  518  rm testing.py 
-  519  git status
-  520  git restore testing.py 
-  521  git status
-  522  history
-  523  git status
-  524  git add testing.py 
-  525  git status
-  526  git commit -m "edited the testing py file"
-  527  git status
-  528  git add git_commands.txt 
-  529  git status
-  530  git commit -m "added git commands file"
-  531  git status
-  532  cd ..
-  533  rm github-for-devops/ git-for-devops
-  534  rm -r github-for-devops/ git-for-devops
-  535  cd github-for-devops/
-  536  ls
-  537  cd ..
-  538  cd github-for-devops/
-  539  ls
-  540  clear
-  541  ls
-  542  git status
-  543  git init
-  544  touch testing.py
-  545  touch git-commands.txt
-  546  ls
-  547  git status
-  548  git add .
-  549  git status
-  550  git commmit -m "added files"
-  551  git commit -m "added two files"
-  552  git status
-  553  history
+
+git init
+git status
+git status
+clear
+git status
+ls -a
+touch testing.py
+git status
+git add testing.py 
+git status
+git rm --cached testing.py 
+git status
+git add .
+git status
+git commit -m "added testing file"
+git status
+rm testing.py 
+git status
+git restore testing.py 
+git status
+history
+git status
+git add testing.py 
+git status
+git commit -m "edited the testing py file"
+git status
+git add git_commands.txt 
+git status
+git commit -m "added git commands file"
+git status
+cd ..
+rm github-for-devops/ git-for-devops
+rm -r github-for-devops/ git-for-devops
+cd github-for-devops/
+ls
+cd ..
+cd github-for-devops/
+ls
+clear
+ls
+git status
+git init
+touch testing.py
+touch git-commands.txt
+ls
+git status
+git add .
+git status
+git commmit -m "added files"
+git commit -m "added two files"
+git status
+history
 
 
-  559  git remote add origin https://github.com/nikhilsadawarti/git-for-devops.git
-  560  git remote -v
-  561  git push origin master
-  562  git remote set-url origin https://<personal-access-tocken>@github.com/nikhilsadawarti/git-for-devops.git
-  563  git remote -v
-  564  git push origin master
-  565  mkdir git-clones
-  566  cd git-clones/
-  567  ls
-  568  git status
-  569  cd ..
-  570  git status
-  571  cd git-clones/
-  572  git clone https://github.com/nikhilsadawarti/git-for-devops.git
-  573  ls
-  574  cd git-for-devops/
-  575  ls
-  576  history
+git remote add origin https://github.com/nikhilsadawarti/git-for-devops.git
+git remote -v
+git push origin master
+git remote set-url origin https://<personal-access-tocken>@github.com/nikhilsadawarti/git-for-devops.git
+git remote -v
+git push origin master
+mkdir git-clones
+cd git-clones/
+ls
+git status
+cd ..
+git status
+cd git-clones/
+git clone https://github.com/nikhilsadawarti/git-for-devops.git
+ls
+cd git-for-devops/
+ls
+history
 
 This is some new changes
