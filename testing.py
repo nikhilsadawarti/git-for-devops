@@ -1,19 +1,23 @@
-"""Demo module for returning a greeting message."""
+"""A simple module demonstrating a greeting function."""
 
 
-def hello():
-    """Return a greeting message."""
-    return "hello world"
+def greet(name):
+    """Return a greeting message for the given name.
+
+    Args:
+        name (str): The name of the person.
+
+    Returns:
+        str: A greeting message.
+    """
+    return f"Hello, {name}!"
 
 
-hello()
-
-"""Demo module for returning a greeting message."""
-
-
-def git():
-    """Return a greeting message."""
-    return "hello gitub actions"
+def main():
+    """Run the main program."""
+    message = greet("Alice")
+    print(message)
 
 
-git()
+if __name__ == "__main__":
+    main()
