@@ -7,3 +7,13 @@ def hello():
 
 
 hello()
+
+"""Demo module for returning a greeting message."""
+
+
+def git():
+    """Return a greeting message."""
+    return "hello gitub actions"
+
+
+git()
