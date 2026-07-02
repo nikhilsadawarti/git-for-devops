@@ -1,7 +1,11 @@
+"""A simple module demonstrating a basic function."""
+
+
 def my_function():
+    """Return the integer value 5."""
+    value = 5
+    return value
 
-    a = 5
-    return a 
 
-
-my_function()
+if __name__ == "__main__":
+    print(my_function())
