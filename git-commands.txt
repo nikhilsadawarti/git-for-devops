@@ -78,3 +78,54 @@ git status
 git branch
 git fetch
 git branch
+
+cd .git/hooks
+sudo apt update
+cd ../..
+ls
+sudo apt install flake8
+flake8 demo.py 
+sudo apt install flake8
+flake8 demo.py 
+clear
+cd .git/hooks/
+ls -l pre-commit
+chmod 755 pre-commit
+ls -l pre-commit
+chmod 700 pre-commit
+ls -l pre-commit
+git status
+cd ../..
+git status
+git add git-commands.txt 
+git commit -m "added few commands"
+git status
+flake8 demo.py 
+git add demo.py 
+git status
+git commit -m "added demo py wrong code for testing"
+git config --global user.email "your@email.com"
+git config --global user.name "yourusername"
+git remote -v
+git commit -m "added demo py wrong code for testing"
+git add demo.py 
+git commit -m "added demo py correct code for testing"
+git add demo.py 
+git commit -m "added demo py correct code for testing"
+git add demo.py 
+git commit -m "added demo py correct code for testing"
+git add demo.py 
+git commit -m "added demo py correct code for testing"
+git add demo.py 
+git commit -m "added demo py correct code for testing"
+history
+git add demo.py 
+git commit -m "added demo py code for testing"
+git add demo.py 
+git commit -m "added demo py code for testing"
+git add demo.py 
+git commit -m "added demo py code for testing"
+git add demo.py 
+git commit -m "added demo py code for testing"
+git status
+git push origin master
